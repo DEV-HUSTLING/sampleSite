@@ -1,0 +1,36 @@
+*{
+    background-color: #222222;
+    margin: 0;
+    color: white;
+    width: 100vw;
+}
+.divHome{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 3%;
+    padding-bottom: 2%;
+
+}
+.divContent{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    text-align: center;
+}
+.divContent:hover a{
+    cursor: pointer;
+}
+
+.nav_home:hover {
+    border-bottom: solid 2px white;
+}   
+.nav_service:hover {
+    border-bottom: solid 2px white;
+}   
+.nav_about:hover {
+    border-bottom: solid 2px white;
+}   
+.nav_tour:hover {
+    border-bottom: solid 2px white;
+}   

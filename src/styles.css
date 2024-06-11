@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #222222;
+
+}
+@font-face {
+    font-family: 'mitFont';
+    src: url('./assets/mit-block-font.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }

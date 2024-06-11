@@ -1,0 +1,137 @@
+
+*{
+    color: white;
+}
+.home{
+    position: absolute;
+    margin: auto;
+    top: 40%;
+
+}
+.home_content{
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.home_left h1{
+    font-size: 8rem;
+    background: linear-gradient(90deg, #63DFFA, #6C47FF, #63DFFA);
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 3s infinite;
+
+}
+.home_left p{
+    font-size: 1.5rem;
+}
+.home_left_content{
+    width: 50%;
+}
+.home_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_right_content{
+    position: absolute;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+    border: solid 1px white;
+    padding: 2%;
+}
+.home_right {
+    /* width: 50%; */
+
+}
+.animated_logo{
+    width: 25%;
+    animation: zoomTranslate 5s forwards;
+
+}
+.ani_flex2 img{
+    width: 25%;
+    /* animation: zoomTranslate 5s forwards; */
+
+}
+.split_logo1 {
+    opacity: 0; /* Initially hidden */
+    animation: splitAnimation 15s forwards;
+}
+.split_logo2 {
+    opacity: 0; /* Initially hidden */
+    animation: splitAnimation 25s forwards;
+}
+.split_logo3 {
+    opacity: 0; /* Initially hidden */
+    animation: splitAnimation 20s forwards;
+}
+.ani_flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ani_flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ani_flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.ani_flex3 h2{
+    transform: scale(0); /* Initially hidden */
+    animation: textReveal 10s forwards;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes zoomTranslate {
+    0% {
+        transform: scale(2) translate(0, 0);
+        top: 50%;
+        left: 50%;
+        transform-origin: center;
+    }
+    100% {
+        transform: scale(1) translate(-50%, -50%);
+        top: 0;
+        left: 100%;
+        transform-origin: top right;
+    }
+}
+@keyframes splitAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1; /* Fade in */
+    }
+}
+@keyframes textReveal {
+    0% {
+        transform: scale(0); /* Hidden at start */
+    }
+    100% {
+        transform: scale(1); /* Fully visible at end */
+    }
+}
