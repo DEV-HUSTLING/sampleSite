@@ -11,3 +11,14 @@
     font-weight: normal;
     font-style: normal;
   }
+.site_central{
+    display: flex;
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+}

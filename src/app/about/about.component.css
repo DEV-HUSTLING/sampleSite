@@ -1,0 +1,32 @@
+*{
+    color: white;
+}
+.about{
+    position: absolute;
+    top: 25%;
+}
+
+.Slide_Container{
+    width: 70%;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 60%;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.Slide_Container h1{
+    font-size: 5rem;
+    color: #63DFFA;
+}
+.Slide_Container p{
+    line-height: 5vh;
+}
+@media screen and (max-width: 650px) {
+    .Slide_Container h1{
+        font-size: 3rem;
+        color: #63DFFA;
+    }
+}

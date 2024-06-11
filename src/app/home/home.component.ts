@@ -8,6 +8,6 @@ import { NavComponent } from '../component/nav/nav.component';
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
-  imagePath: string = '/assets/Frame_logo.png';
+  imagePath: string = './assets/Frame_logo.png';
 
 }

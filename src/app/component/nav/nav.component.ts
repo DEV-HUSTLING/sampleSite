@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-nav',
@@ -8,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './nav.component.css'
 })
 export class NavComponent {
-
+  
 }
