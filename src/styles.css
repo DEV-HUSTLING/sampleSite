@@ -7,7 +7,7 @@
 }
 @font-face {
     font-family: 'mitFont';
-    src: url('./assets/mit-block-font.ttf') format('ttf');
+    src: url('/assets/mit-block-font.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
   }

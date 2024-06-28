@@ -5,18 +5,31 @@
     position: absolute;
     top: 25%;
 }
-
-.Slide_Container{
+.about_main {
+    position: fixed;
+    top: 25%;
+    height: 60%;
+    width: 100%; /* Make it full width */
+    overflow-y: auto; /* Allow vertical scroll */
+  }
+  
+  .Slide_Container {
     width: 70%;
     margin: auto;
-    position: fixed;
+    position: relative;
     left: 0;
     right: 0;
-    height: 60%;
-    overflow: auto;
+    height: 100%;
+    overflow: hidden;
     scrollbar-width: none;
-}
+  }
 
+.slide{
+    display: none;
+}
+.slide.active{
+    display:block
+}
 .Slide_Container h1{
     font-size: 5rem;
     color: #63DFFA;
